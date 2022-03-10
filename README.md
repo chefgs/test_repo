@@ -77,6 +77,8 @@ git commit -m "first commit"
 
 ## Step 13 Push the repo changes to Git
 - Uploads all local branch commits to GitHub
+- The current branch main has no upstream branch in GitHub, so to push the current branch changes and set the remote as upstream, use below command for the first time
+
 ```
 git push --set-upstream origin main
 ```
@@ -87,22 +89,22 @@ git push --set-upstream origin main
 ## Next steps
 - Once changes are pushed for the first time, follow-up changes can be pushed by running below commands
 
-## Check repo changes using git status
+### Check repo changes using git status
 ```
 git status
 ```
 
-## Add the files to git staging
+### Add the files to git staging
 ```
 git add .
 ```
 
-## Commit the staged files
+### Commit the staged files
 ```
 git commit -m "new commit message"
 ```
 
-## Push the repo changes to Git
+### Push the repo changes to Git
 ```
 git push origin main
 ```
